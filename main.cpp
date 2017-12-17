@@ -1,8 +1,10 @@
 #include <iostream>
 #include "Pixel.h"
 #include "vector"
+#include "time.h"
 using namespace std;
 int main() {
+    srand(time(0));
     int n=100, m=100;
     vector<vector<Pixel> > ss;
     for (int i=-n; i<n+1; i++){
